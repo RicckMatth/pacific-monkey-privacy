@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="description" content="Política de Privacidade da extensão Pacific Monkey para Google Chrome.">
-  <title>Política de Privacidade | Pacific Monkey</title>
+  <meta name="description" content="Política de Privacidade da extensão Pacific Automate para Google Chrome.">
+  <title>Política de Privacidade | Pacific Automate</title>
   <style>
     :root { color-scheme:dark; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:#07111e; color:#dce9f5; line-height:1.7; }
     * { box-sizing:border-box; }
@@ -31,26 +31,26 @@
 </head>
 <body>
   <header><div>
-    <div class="eyebrow">Pacific Monkey · Privacidade e transparência</div>
+    <div class="eyebrow">Pacific Automate · Privacidade e transparência</div>
     <h1>Política de Privacidade</h1>
-    <p class="lead">Como o gerenciador de scripts Pacific Monkey trata permissões, arquivos, códigos personalizados e informações de páginas acessadas.</p>
-    <p class="meta">Última atualização: 31 de outubro de 2026 · Referente à extensão Pacific Monkey 1.7.1</p>
+    <p class="lead">Como o gerenciador de automações Pacific Automate trata permissões, arquivos, códigos personalizados e informações de páginas acessadas.</p>
+    <p class="meta">Última atualização: 4 de novembro de 2026 · Referente à extensão Pacific Automate 1.10.1</p>
   </div></header>
   <main>
     <section aria-labelledby="finalidade"><h2 id="finalidade">1. Finalidade</h2>
-      <p>O Pacific Monkey é uma extensão para Google Chrome que permite criar, importar, visualizar, editar, ativar e desativar scripts JavaScript em sites escolhidos pelo próprio usuário.</p>
+      <p>O Pacific Automate é uma extensão para Google Chrome que permite criar, importar, visualizar, editar, ativar e desativar scripts JavaScript em sites escolhidos pelo próprio usuário.</p>
     </section>
     <section aria-labelledby="dados"><h2 id="dados">2. Informações utilizadas</h2>
       <ul>
         <li><strong>Scripts e preferências:</strong> o código dos scripts, seus nomes, padrões de endereço, estado de ativação e configurações ficam armazenados localmente por meio do <code>chrome.storage.local</code>.</li>
         <li><strong>Permissões por site:</strong> o usuário escolhe o domínio em que pretende executar o script e autoriza o acesso usando o diálogo de permissões do Chrome. A execução utiliza a API <code>chrome.userScripts</code>.</li>
-        <li><strong>Arquivos protegidos por senha:</strong> pacotes <code>.pmenc</code> são descriptografados localmente. A senha não é armazenada ou enviada a servidores pelo Pacific Monkey. Após a importação, o script fica disponível em texto legível no armazenamento local, para permitir edição e execução.</li>
+        <li><strong>Arquivos protegidos por senha:</strong> pacotes <code>.pmenc</code> são descriptografados localmente. A senha não é armazenada ou enviada a servidores pelo Pacific Automate. Após a importação, o script fica disponível em texto legível no armazenamento local, para permitir edição e execução.</li>
         <li><strong>Conteúdo de páginas:</strong> scripts expressamente ativados pelo usuário podem ler ou modificar informações das páginas para as quais receberam autorização, dependendo das instruções contidas em cada script.</li>
       </ul>
     </section>
     <section aria-labelledby="transmissao"><h2 id="transmissao">3. Uso e transmissão de dados</h2>
       <p>A versão descrita nesta política não possui sistema próprio de contas, serviço de sincronização remota, telemetria, anúncios ou funcionalidade de envio automático de scripts e conteúdo de páginas ao desenvolvedor.</p>
-      <div class="note"><strong>Atenção aos scripts importados:</strong> um script JavaScript criado ou obtido de terceiros pode conter instruções para acessar, processar ou transmitir dados a outros serviços. O Pacific Monkey não garante o comportamento nem a privacidade de scripts de terceiros. Revise o código e use apenas scripts de fontes confiáveis.</div>
+      <div class="note"><strong>Atenção aos scripts importados:</strong> um script JavaScript criado ou obtido de terceiros pode conter instruções para acessar, processar ou transmitir dados a outros serviços. O Pacific Automate não garante o comportamento nem a privacidade de scripts de terceiros. Revise o código e use apenas scripts de fontes confiáveis.</div>
     </section>
     <section aria-labelledby="armazenamento"><h2 id="armazenamento">4. Armazenamento, retenção e exclusão</h2>
       <p>As configurações e os scripts permanecem no perfil local do Chrome enquanto o usuário os mantém. É possível excluir scripts diretamente pela biblioteca da extensão. A remoção dos dados da extensão ou sua desinstalação está sujeita ao funcionamento e às políticas do navegador.</p>
@@ -65,13 +65,14 @@
     <section aria-labelledby="seguranca"><h2 id="seguranca">6. Segurança</h2>
       <p>Recomendamos inspecionar scripts importados antes de ativá-los, evitar códigos de procedência desconhecida e respeitar as normas de segurança dos sites e ambientes de trabalho. A criptografia de um arquivo <code>.pmenc</code> protege o pacote durante seu transporte ou armazenamento externo, mas não mantém o código criptografado após a importação.</p>
     </section>
-    <section aria-labelledby="atualizacoes"><h2 id="atualizacoes">7. Atualizações da política</h2>
+    <section aria-labelledby="local"><h2 id="local">7. Automações locais e atualização de versões anteriores</h2><p>A versão 1.10.1 não possui importação de código por servidor, resgate de convites, atualização automática de automações ou verificação remota de acesso. O usuário fornece o código pelo editor ou por arquivos locais. Importações e alterações são salvas desativadas até uma nova ativação.</p><p>A atualização preserva o código e o estado de ativação das automações existentes, removendo os vínculos e credenciais legados de importação por servidor do armazenamento local. Desativar ou excluir uma automação remove seu registro para próximas navegações; recarregue páginas já abertas para encerrar efeitos de execuções anteriores.</p><p>A exportação protegida utiliza AES-256-GCM com chave derivada da senha por PBKDF2-SHA256, com 250.000 iterações. Não há recuperação da senha pelo desenvolvedor. O armazenamento local da biblioteca não é mantido criptografado pelo formato de exportação.</p></section>
+    <section aria-labelledby="atualizacoes"><h2 id="atualizacoes">8. Atualizações da política</h2>
       <p>Esta política poderá ser atualizada caso as funcionalidades ou práticas de tratamento de dados da extensão sejam alteradas. A data de atualização será indicada nesta página.</p>
     </section>
-    <section aria-labelledby="contato"><h2 id="contato">8. Contato e solicitações de privacidade</h2>
-      <p>Para dúvidas, sugestões ou solicitações relacionadas à privacidade, abra uma solicitação no <a href="https://github.com/RicckMatth/pacific-monkey-privacy/issues" rel="noopener noreferrer">repositório público de suporte e privacidade do Pacific Monkey</a>. Evite enviar dados pessoais ou informações sensíveis em solicitações públicas.</p>
+    <section aria-labelledby="contato"><h2 id="contato">9. Contato e solicitações de privacidade</h2>
+      <p>Para dúvidas, sugestões ou solicitações relacionadas à privacidade, abra uma solicitação no <a href="https://github.com/RicckMatth/pacific-monkey-privacy/issues" rel="noopener noreferrer">repositório público de suporte e privacidade do Pacific Automate</a>. Evite enviar dados pessoais ou informações sensíveis em solicitações públicas.</p>
     </section>
   </main>
-  <footer><div>Pacific Monkey · <a href="https://github.com/RicckMatth/pacific-monkey-privacy" rel="noopener noreferrer">Repositório da Política de Privacidade</a></div></footer>
+  <footer><div>Pacific Automate · <a href="https://github.com/RicckMatth/pacific-monkey-privacy" rel="noopener noreferrer">Repositório da Política de Privacidade</a></div></footer>
 </body>
 </html>
